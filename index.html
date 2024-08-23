@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Tributo: Vampiro: A Máscara</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('img/background.jpg') no-repeat center center fixed; /* Caminho para a imagem de fundo */
+            background-size: cover;
+            color: #e0e0e0; /* Branco */
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .header, .biography-container, .quotes-container, .clans-container, .curiosities-container, .references-container, .moreinfo-container {
+            background: #1c1c1c; /* Preto */
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .main-title {
+            font-size: 2.5em;
+            color: #ff2400; /* Vermelho sangue */
+            text-shadow: 2px 2px 5px #000; /* Preto */
+        }
+
+        .main-paragraph {
+            font-size: 1.2em;
+            color: #e0e0e0; /* Branco */
+        }
+
+        .bold {
+            font-weight: bold;
+            color: #e0e0e0; /* Branco */
+            background-color: #ff2400; /* Vermelho sangue */
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+
+        figure {
+            margin: 0;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+            border: 2px solid #ff2400; /* Vermelho sangue */
+        }
+
+        figcaption {
+            text-align: center;
+            font-size: 0.9em;
+            color: #e0e0e0; /* Branco */
+        }
+
+        .quotes-container blockquote {
+            font-size: 1.2em;
+            margin: 0;
+            padding: 10px;
+            background: #1c1c1c; /* Preto */
+            border-left: 5px solid #ff2400; /* Vermelho sangue */
+            color: #e0e0e0; /* Branco */
+        }
+
+        .clans-container ul, .curiosities-container ul {
+            list-style: none;
+            padding: 0;
+            display: none;
+        }
+
+        .clans-container ul li, .curiosities-container ul li {
+            background: #1c1c1c; /* Preto */
+            margin: 5px 0;
+            padding: 10px;
+            border-left: 5px solid #ff2400; /* Vermelho sangue */
+            color: #e0e0e0; /* Branco */
+        }
+
+        .references-container a {
+            color: #ff2400; /* Vermelho sangue */
+            text-decoration: none;
+        }
+
+        .references-container a:hover {
+            text-decoration: underline;
+        }
+
+        .moreinfo-container a {
+            color: #ff2400; /* Vermelho sangue */
+            text-decoration: none;
+        }
+
+        .moreinfo-container a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            color: rgba(178, 34, 34, 0.813);
+            text-align: center;
+        }
+
+        .background-image-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .background-image {
+            display: block;
+            position: relative;
+            z-index: 1;
+        }
+
+        .background-image-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('img/your-background.jpg') no-repeat center center; /* Ajuste o caminho da imagem */
+            background-size: cover;
+            z-index: 0;
+            border-radius: 10px; /* Mesma borda arredondada que a imagem, se necessário */
+        }
+
+        /* Estilo para o botão */
+        button {
+            background-color: #ff2400;
+            color: #e0e0e0;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #d11900;
+        }
+
+        /* Centralizar botões */
+        .center-btn {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Cabeçalho -->
+        <div class="header">
+            <h1 class="main-title">Vampiro: A Máscara</h1>
+            <p class="main-paragraph">Um jogo de RPG de horror pessoal e político.</p>
+        </div>
+        <!-- Imagem de destaque -->
+        <div class="featured-image background-image-container">
+            <figure>
+                <img src="img/v1.jpg" alt="Capa do RPG Vampiro: A Máscara" class="background-image">
+                <figcaption> </figcaption>
+            </figure>
+        </div>
+       
+         <!-- Biografia -->
+<div class="biography-container">
+    <h2 style="color: #ff2400;">Vampiro: A Máscara</h2>
+    <p>
+        "Vampiro: A Máscara" é muito mais do que um simples jogo de RPG; é uma imersão profunda nos recessos mais sombrios e intrigantes do horror gótico. Concebido por Mark Rein-Hagen e lançado pela White Wolf Publishing em 1991, ele revolucionou o mundo dos jogos de interpretação ao desbravar territórios adultos e sinistros, afastando-se dos clichês dos RPGs de fantasia tradicionais para explorar dilemas morais, poder e redenção.
+    </p>
+    <p>
+        O Mundo das Trevas, o cenário do jogo, é uma versão distorcida e perversa de nossa realidade, onde seres sobrenaturais como vampiros, lobisomens e magos travam uma incessante luta pelo domínio. A referência aos vampiros como "Cainitas", descendentes de Caim, o primeiro assassino bíblico, adiciona uma camada de mito e escuridão ao jogo, proporcionando uma profundidade temática única.
+    </p>
+    <p>
+        O que realmente diferencia "Vampiro: A Máscara" é sua abordagem narrativa. Os jogadores assumem o papel de vampiros de diferentes clãs, cada um com suas próprias habilidades, fraquezas e filosofias. O sistema de jogo, conhecido como "Storyteller System", prioriza a profundidade da narrativa e o desenvolvimento dos personagens sobre as regras complexas, permitindo uma experiência mais fluida e imersiva. Além disso, o uso de fichas de dados e testes de habilidades enfatiza a interpretação e a imersão dos jogadores, trazendo um elemento de aleatoriedade que mantém as narrativas imprevisíveis e dinâmicas.
+    </p>
+    <p>
+        Ao mergulhar nesse universo envolvente, os jogadores são confrontados não apenas com o lado sombrio da humanidade, mas também com dilemas éticos e morais complexos. A luta pelo controle e influência se desdobra entre as sombras, desafiando os próprios fundamentos da alma humana e convidando os jogadores a explorarem questões profundas sobre o que significa ser humano.
+    </p>
+    <p>
+        "Vampiro: A Máscara" transcendeu os limites do jogo, inspirando uma série de adaptações para outras mídias, incluindo livros, filmes e séries de TV. Sua narrativa rica e personagens complexos continuam a cativar jogadores em todo o mundo, tornando-se uma experiência imersiva que perdura ao longo dos anos e estabelecendo-se como uma referência no universo dos jogos de RPG.
+</div>
+
+
+<!-- Detalhes dos Clãs -->
+<div class="clans-container">
+    <h2 style="color: #ff2400">Clãs de Vampiro: A Máscara</h2>
+    <img src="img/v2.png" alt="Imagem de Vampiro: A Máscara">
+    <button class="center-btn" onclick="toggleClans()">𓋹</button>
+    <ul id="clanList">
+        <li><span class="bold">Brujah:</span> O clã dos idealistas e rebeldes, conhecidos por sua paixão por causas e mudanças sociais. Referências: Ativistas políticos contemporâneos, líderes de movimentos sociais. Para mais informações sobre o clã, acesse <a href="https://whitewolf.fandom.com/wiki/Brujah" target="_blank" style="color: #ff2400;">aqui</a>.</li>
+        <li><span class="bold">Ventrue:</span> O clã dos líderes e aristocratas, com um desejo inato de governar e manter a ordem. Referências: CEOs de grandes corporações, políticos influentes. Para mais informações sobre o clã, acesse <a href="https://whitewolf.fandom.com/wiki/Ventrue" target="_blank" style="color: #ff2400;">aqui</a>.</li>
+        <li><span class="bold">Tremere:</span> Mestres da taumaturgia e do conhecimento arcano, são vampiros que valorizam o poder do conhecimento. Referências: Acadêmicos renomados, líderes de sociedades secretas. Para mais informações sobre o clã, acesse <a href="https://whitewolf.fandom.com/wiki/Tremere" target="_blank" style="color: #ff2400;">aqui</a>.</li>
+        <li><span class="bold">Nosferatu:</span> Vampiros que se destacam pela discrição e habilidades em espionagem, apesar de suas aparências grotescas. Referências: Hackers especializados em segurança cibernética, espiões infiltrados em organizações. Para mais informações sobre o clã, acesse <a href="https://whitewolf.fandom.com/wiki/Nosferatu" target="_blank" style="color: #ff2400;">aqui</a>.</li>
+        <li><span class="bold">Toreador:</span> Vampiros que valorizam a arte e a beleza, sendo patronos e criadores de maravilhas artísticas. Referências: Curadores de museus de arte contemporânea, influenciadores de mídia social no campo das artes. Para mais informações sobre o clã, acesse <a href="https://whitewolf.fandom.com/wiki/Toreador" target="_blank" style="color: #ff2400;">aqui</a>.</li>
+        <li><span class="bold">Gangrel:</span> Nômades e mestres da sobrevivência, com uma forte ligação com a natureza e o lado selvagem. Referências: Exploradores de regiões selvagens, ativistas ambientais. Para mais informações sobre o clã, acesse <a href="https://whitewolf.fandom.com/wiki/Gangrel" target="_blank" style="color: #ff2400;">aqui</a>.</li>
+        <li><span class="bold">Malkavian:</span> Conhecidos por suas percepções únicas e visões proféticas, muitas vezes considerados loucos. Referências: Profetas modernos, artistas visionários. Para mais informações sobre o clã, acesse <a href="https://whitewolf.fandom.com/wiki/Malkavian" target="_blank" style="color: #ff2400;">aqui</a>.</li>
+        <li><span class="bold">Lasombra:</span> Vampiros que controlam as sombras e buscam poder através de influência e manipulação. Referências: Líderes de organizações secretas, estrategistas políticos nos bastidores. Para mais informações sobre o clã, acesse <a href="https://whitewolf.fandom.com/wiki/Lasombra" target="_blank" style="color: #ff2400;">aqui</a>.</li>
+        <li><span class="bold">Tzimisce:</span> Mestres da carne e metamorfose, são conhecidos por suas práticas de transformação grotesca. Referências: Cirurgiões plásticos extremos, artistas de body modification. Para mais informações sobre o clã, acesse <a href="https://whitewolf.fandom.com/wiki/Tzimisce" target="_blank" style="color: #ff2400;">aqui</a>.</li>
+        <li><span class="bold">Banu Haqim (Assamita):</span> Clã de guerreiros e juízes, conhecidos por sua busca por justiça e disciplina de sangue. Referências: Juízes de tribunais militares, líderes de grupos paramilitares. Para mais informações sobre o clã, acesse <a href="https://whitewolf.fandom.com/wiki/Banu_Haqim" target="_blank" style="color: #ff2400;">aqui</a>.</li>
+        <li><span class="bold">Ravnos:</span> Conhecidos por suas ilusões e estilo de vida nômade, muitas vezes associados a truques e trapaças. Referências: Artistas de rua habilidosos, vigaristas carismáticos. Para mais informações sobre o clã, acesse <a href="https://whitewolf.fandom.com/wiki/Ravnos" target="_blank" style="color: #ff2400;">aqui</a>.</li>
+        <li><span class="bold">Hecata (antigos Giovanni):</span> Focados na necromancia e controle dos mortos, além de acumulação de riqueza. Referências: Empresários da indústria funerária, líderes de cultos religiosos que lidam com a morte. Para mais informações sobre o clã, acesse <a href="https://whitewolf.fandom.com/wiki/Hecata" target="_blank" style="color: #ff2400;">aqui</a>.</li>
+        <li><span class="bold">Salubri:</span> Conhecidos por sua compaixão e cura, muitas vezes vistos como protetores. Referências: Médicos humanitários, voluntários em organizações de ajuda médica. Para mais informações sobre o clã, acesse <a href="https://whitewolf.fandom.com/wiki/Salubri" target="_blank" style="color: #ff2400;">aqui</a>.</li>
+        <li><span class="bold">Sangue Ralo:</span> Descendentes de vampiros de linhagens enfraquecidas, buscando provar seu valor. Referências: Trabalhadores em empregos comuns, indivíduos que enfrentam desafios cotidianos para se destacarem. Para mais informações sobre o clã, acesse <a href="https://whitewolf.fandom.com/wiki/Thin-blood" target="_blank" style="color: #ff2400;">aqui</a>.</li>
+        <li><span class="bold">Ministérios (Antigos Setitas):</span> Manipuladores e adoradores do deus Set, agora adaptados a novos tempos, expandindo sua influência em Los Angeles. Referências: Cultistas modernos, líderes de grupos esotéricos. Para mais informações sobre o clã, acesse <a href="https://whitewolf.fandom.com/wiki/The_Ministry" target="_blank" style="color: #ff2400;">aqui</a>.</li>
+        
+    </ul>
+</div>
+
+
+     <!-- Curiosidades -->
+     <div class="curiosities-container">
+        <h2 style="color: #ff2400">Curiosidades</h2>
+        <img src="img/v3.jpg" alt="Imagem de Vampiro: A Máscara">
+        <button class="center-btn" onclick="toggleCuriosities()">🔍︎</button>
+        <ul id="curiositiesList">
+            <li>Vampiro: A Máscara influenciou uma série de outras mídias, incluindo livros, quadrinhos e séries de TV.</li>
+            <li>O jogo é conhecido por seu sistema de ética, chamado de "Trilha da Humanidade", que mede o quão humano ou monstruoso um personagem se comporta.</li>
+            <li>A ambientação do jogo é rica e detalhada, abrangendo desde as noites modernas até a idade das trevas.</li>
+            <li>O jogo tem uma comunidade ativa de fãs e jogadores, com muitos encontros e eventos ao redor do mundo.</li>
+            <li>Vampiro: A Máscara foi um dos primeiros RPGs a abordar temas de horror pessoal e política, diferenciando-se de outros RPGs de fantasia.</li>
+            <li>O jogo recebeu várias edições ao longo dos anos, cada uma expandindo e refinando o universo do Mundo das Trevas.</li>
+            <li>Existem vários jogos de vídeo baseados no universo de Vampiro: A Máscara, incluindo "Vampire: The Masquerade - Bloodlines".</li>
+            <li>A mitologia do jogo é fortemente influenciada por lendas e histórias de vampiros de várias culturas ao redor do mundo.</li>
+            <li>O clã Malkavian é conhecido por seu toque único de loucura, proporcionando desafios e oportunidades interessantes para interpretação.</li>
+            <li>Vampiro: A Máscara ganhou vários prêmios e é frequentemente considerado um dos melhores RPGs de todos os tempos.</li>
+            <li>O jogo explora temas como poder, corrupção, e a luta interna entre a humanidade e a besta interior dos vampiros.</li>
+            <li>Além dos livros de regras principais, existem numerosos suplementos que detalham diferentes aspectos do universo, incluindo clãs específicos e regiões geográficas.</li>
+            <li>Os vampiros no jogo possuem disciplinas, que são poderes sobrenaturais únicos de cada clã, acrescentando profundidade à criação e evolução dos personagens.</li>
+        </ul>
+    </div>
+    
+</div>
+
+<!-- Outra seção de frases ou citações -->
+<div class="quotes-container">
+    <h2 style="color: #ff2400;"></h2>
+    <div class="quotes-container">
+        <h2 style="color: #ff2400;"></h2>
+        <blockquote>"Posso sentir suas presenças lá fora, uma aura gélida que congela até mesmo os pensamentos. São como corvos pressentindo o crepúsculo de Gehenna, como cães guardiões nos portões do desconhecido. Seu número cresce a cada ano que passa, como se a própria escuridão os convocasse para o inevitável. A maioria deles é jovem, demasiado jovem para compreender a magnitude do que se avizinha. Mas os mais antigos, aqueles que há séculos aguardam nas sombras, agora começam a se mover, e o rangido de seus dentes ecoa como um presságio sombrio." - Unnamed Malkavian in Clanbook: Malkavian Revised</blockquote>
+        
+</div>
+
+<!-- Referências -->
+<div class="references-container">
+    <h2 style="color: #ff2400">Referências</h2>
+    
+    <ul>
+        <li><a href="https://www.worldofdarkness.com/" target="_blank">World of Darkness (em inglês)</a></li>
+        <li><a href="https://whitewolf.fandom.com/wiki/Vampire:_The_Masquerade" target="_blank">White Wolf Fandom Wiki (em inglês)</a></li>
+
+    </ul>
+</div>
+
+    <footer>
+        <p>&copy; ᛖ △ 𝐿 𝐾 𝑉 </p>
+    </footer>
+
+    <script>
+        // Função para alternar a visibilidade dos clãs
+        function toggleClans() {
+            var clanList = document.getElementById("clanList");
+            if (clanList.style.display === "none") {
+                clanList.style.display = "block";
+            } else {
+                clanList.style.display = "none";
+            }
+        }
+
+        // Função para alternar a visibilidade das curiosidades
+        function toggleCuriosities() {
+            var curiositiesList = document.getElementById("curiositiesList");
+            if (curiositiesList.style.display === "none") {
+                curiositiesList.style.display = "block";
+            } else {
+                curiositiesList.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
